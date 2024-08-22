@@ -6,7 +6,9 @@ public class Jarvis {
     public static void main(String[] args) {
         // Crear una armadura de Iron Man
         Armadura ironMan = new Armadura("Rojo", "Oro", 100, 100);
-        WarMachine cody = new WarMachine("Galting de Protones");//hola este es un comentario de Cris
+
+        WarMachine cody = new WarMachine("Galting de Protones Ultron");
+
         cody.SaludarYDisparar();
         // Realizar algunas acciones
         ironMan.caminar(10);
